@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-       "start": "kill-port --port 8000 && nodemon index.js"
+       "start": "nodemon index.js"
   },
   "author": "TUSHAR_MISHRA",
   "license": "ISC",
@@ -14,7 +14,6 @@
     "express-ejs-layouts": "^2.5.1",
     "firebase": "^9.16.0",
     "mongodb": "^4.13.0",
-    "kill-port": "^2.0.1",
     "mongoose": "^6.9.0",
     "node": "^20.2.0",
     "nodemon": "^2.0.22"
